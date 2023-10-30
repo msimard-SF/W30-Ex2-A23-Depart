@@ -6,7 +6,7 @@ import dogs.view.WelcomeView;
 public class WelcomeController implements IWelcomeController {
 
 
-	public void startApplication() {;
+	public void startApplication() {
 		IView welcomeView = new WelcomeView(this);
 		welcomeView.display();
 	}
